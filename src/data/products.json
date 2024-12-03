@@ -1,0 +1,202 @@
+[
+ { 
+    "id": 1,
+    "title": "Big Bubble",
+    "price": 14.5,
+    "image": "/images/candles/big_bubble.jpg"
+},
+{ 
+    "id": 2,
+    "title": "Medium Bubble",
+    "price": 10,
+    "image": "/images/candles/big_bubble.jpg"
+},
+
+{ 
+    "id": 3,
+    "title": "Little Bubble",
+    "price": 4.5,
+    "image": "/images/candles/big_bubble.jpg"
+},
+{ 
+    "id": 4,
+    "title": "Love Bubble",
+    "price": 14.5,
+    "image": "/images/candles/love_bubble.jpg"
+},
+{ 
+    "id": 5,
+    "title": "Piramid Bubble",
+    "price": 5,
+    "image": "/images/candles/piramid_bubble.jpg"
+},
+{ 
+    "id": 6,
+    "title": "Ball Bubble",
+    "price": 8,
+    "image": "/images/candles/ball_bubble.jpg"
+},
+{ 
+    "id": 7,
+    "title": "Intrecci",
+    "price": 8,
+    "image": "/images/candles/intrecci.jpg"
+},
+{ 
+    "id": 8,
+    "title": "Pandora",
+    "price": 10,
+    "image": "/images/candles/pandora.jpg"
+},
+{ 
+    "id": 9,
+    "title": "Geometrie d'amore",
+    "price": 8,
+    "image": "/images/candles/geometrie_damore.jpg"
+},
+{ 
+    "id": 10,
+    "title": "Nido d'amore",
+    "price": 10,
+    "image": "/images/candles/nido_amore.jpg"
+},
+{ 
+    "id": 11,
+    "title": "Sapore d'autumno",
+    "price": 10,
+    "image": "/images/candles/sapore_autunno.jpg"
+},
+{ 
+    "id": 12,
+    "title": "Cubic",
+    "price": 14.5,
+    "image": "/images/candles/cubic.jpg"
+},
+{ 
+    "id": 13,
+    "title": "La Raffinata M",
+    "price": 14,
+    "image": "/images/candles/la_raffinata.jpg"
+},
+{ 
+    "id": 14,
+    "title": "La Rafifnata S",
+    "price": 7.5,
+    "image": "/images/candles/la_raffinata.jpg"
+},
+{ 
+    "id": 15,
+    "title": "La Curvi",
+    "price": 10,
+    "image": "/images/candles/la_curvi.jpg"
+},
+
+{ 
+    "id": 16,
+    "title": "Bosco in Movimento L",
+    "price": 18,
+    "image": "/images/candles/bosco_movimento.jpg"
+},
+{ 
+    "id": 17,
+    "title": "Bosco in Movimento M",
+    "price": 10,
+    "image": "/images/candles/bosco_movimento.jpg"
+},
+{ 
+    "id": 18,
+    "title": "Bosco in Movimento S",
+    "price": 7.5,
+    "image": "/images/candles/bosco_movimento.jpg"
+},
+{ 
+    "id": 19,
+    "title": "L'alveare",
+    "price": 14.5,
+    "image": "/images/candles/lalveare.jpg"
+},
+{ 
+    "id": 20,
+    "title": "Bosco Geometrico L",
+    "price": 18,
+    "image": "/images/candles/Bosco_Geometrico.jpg"
+},
+{ 
+    "id": 21,
+    "title": "Bosco Geometrico M",
+    "price": 10,
+    "image": "/images/candles/Bosco_Geometrico.jpg"
+},
+{ 
+    "id": 22,
+    "title": "A Thousand Bubbles M",
+    "price": 10,
+    "image": "/images/candles/thousand_bubbles.jpg"
+},
+{ 
+    "id": 23,
+    "title": "A Thousand Bubbles S",
+    "price": 14.5,
+    "image": "/images/candles/thousand_bubbles.jpg"
+},
+{ 
+    "id": 24,
+    "title": "Natura Tessuta",
+    "price": 8,
+    "image": "/images/candles/natura_tessuta.jpg"
+},
+{ 
+    "id": 25,
+    "title": "La Peonia",
+    "price": 10,
+    "image": "/images/candles/la_peonia.jpg"
+},
+{ 
+    "id": 26,
+    "title": "Il fiocco di neve",
+    "price": 6,
+    "image": "/images/candles/fiocco_di_neve.jpg"
+},
+{ 
+    "id": 27,
+    "title": "I piccoli in vetro",
+    "price": 7.5,
+    "image": "/images/candles/piccoli_vetro.jpg"
+},
+{ 
+    "id": 28,
+    "title": "La Rosa in Vetro",
+    "price": 10,
+    "image": "/images/candles/rosa_vetro.jpg"
+},
+{ 
+    "id": 29,
+    "title": "La Lavanda in Vetro",
+    "price": 10,
+    "image": "/images/candles/lavanda_vetro.jpg"
+},
+{ 
+    "id": 30,
+    "title": "Arancia e Cannella in Vetro",
+    "price": 10,
+    "image": "/images/candles/cannella_vetro.jpg"
+},
+{ 
+    "id": 31,
+    "title": "Le Cialde - 5 pezzi",
+    "price": 18,
+    "image": "https://i.etsystatic.com/25300524/r/il/31e50a/5695728595/il_1140xN.5695728595_si4n.jpg"
+},
+{ 
+    "id": 32,
+    "title": "Le Cialde - 3 pezzi",
+    "price": 12,
+    "image": "https://i.etsystatic.com/25300524/r/il/31e50a/5695728595/il_1140xN.5695728595_si4n.jpg"
+},
+{ 
+    "id": 33,
+    "title": "Le Cialde - 1 pezzi",
+    "price": 5,
+    "image": "https://i.etsystatic.com/25300524/r/il/31e50a/5695728595/il_1140xN.5695728595_si4n.jpg"
+}
+]

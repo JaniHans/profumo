@@ -1,0 +1,21 @@
+body {
+    font-family: 'Montserrat', 'sans-serif';
+  
+}
+
+.bg-body-tertiary {
+    font-size: 15px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.languageIcon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin: 5px;
+   
+}

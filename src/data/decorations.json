@@ -1,0 +1,29 @@
+[
+    {
+    "id": 0,
+    "title": "Pupazzo di neve",
+    "price": 5,
+    "image": "/images/decorations/snowman.jpg"
+},
+{
+    "id": 1,
+    "title": "Zenzero",
+    "price": 5,
+    "image": "/images/decorations/gingerbread.jpg"
+},
+{ "id": 2,
+    "title": "Fiocco di neve",
+    "price": 5,
+    "image": "/images/decorations/snowflake.jpg"
+},
+{ "id": 3,
+    "title": "Zenzera",
+    "price": 5,
+    "image": "/images/decorations/gingerwoman.jpg"
+    },
+    { "id": 4,
+    "title": "Beretto di neve",
+    "price": 5,
+    "image": "/images/decorations/cap.jpg"
+    }
+]
