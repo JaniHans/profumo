@@ -61,7 +61,30 @@ a {
   margin-top: 0.5rem;
 } 
 
+h1 {
+  color: white;
+}
 
+.marketschedule {
+  background-color: green;
+}
+
+.schedules_container {
+  display: flex;
+  flex: row;
+  padding: 5px;
+  background-color: green;
+  justify-content: center;
+}
+
+.schedules_items {
+  border: 1px solid black;
+  width: 300px;
+  background-color: rgb(245, 94, 94);
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+}
 @media (max-width: 580px) {
   .products-container {
     background-color: rgb(255, 255,sasdasdasd 255);

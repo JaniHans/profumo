@@ -17,7 +17,7 @@ function SingleProduct() {
   return (
     <div>
         <div className='singleproductcontainer'>
-        <div className='product-price'>{leitud.title}</div>
+        <div className='product-price'>{leitud.title}</div><br />
         <img className='singleproductimage' src={leitud.image} alt=''/>
         <div className='product-price'>{leitud.price}€</div>
         </div>

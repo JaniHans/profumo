@@ -17,10 +17,12 @@ function AdminPage() {
   return (
     <div className='main-container'>
       {loggedIn && <Link to={'/admin/maintainproducts'}><button>{t('navigation.maintainproducts')}</button></Link>}
+      {loggedIn && <Link to={'/admin/maintainschedule'}><button>{t('navigation.maintainschedule')}</button></Link>}
       
       {loggedIn === false ?
       <>
       <Link to={'/admin/login'}><button>{t('auth.login')}</button></Link>
+      
       </>
       :
       <button onClick={logout}>{t('auth.logout')}</button>

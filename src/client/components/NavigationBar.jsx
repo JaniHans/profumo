@@ -52,6 +52,9 @@ function Navigationbar() {
             <Nav.Link as={Link} to="/admin/adminpage">
             {t('navigation.adminpage')}
             </Nav.Link>
+            <Nav.Link as={Link} to="./client/MarketSchedule">
+            {t('navigation.market')}
+            </Nav.Link>
             <img onClick={() => changeLang("it")} className="languageIcon" src="/languageicons/it.png" alt="not found" />
             <img onClick={() => changeLang("en")} className="languageIcon" src="/languageicons/uk.png" alt="not found" />
             
@@ -64,6 +67,7 @@ function Navigationbar() {
               placeholder={t('navigation.search')}
               className="me-2"
               aria-label="Search"
+              
             />
             <Button variant="outline-success">{t('navigation.search')}</Button>
           </Form>

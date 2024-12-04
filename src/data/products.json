@@ -185,18 +185,18 @@
     "id": 31,
     "title": "Le Cialde - 5 pezzi",
     "price": 18,
-    "image": "https://i.etsystatic.com/25300524/r/il/31e50a/5695728595/il_1140xN.5695728595_si4n.jpg"
+    "image": "/images/candles/le_cialde1.jpg"
 },
 { 
     "id": 32,
     "title": "Le Cialde - 3 pezzi",
     "price": 12,
-    "image": "https://i.etsystatic.com/25300524/r/il/31e50a/5695728595/il_1140xN.5695728595_si4n.jpg"
+    "image": "/images/candles/le_cialde2.jpg"
 },
 { 
     "id": 33,
     "title": "Le Cialde - 1 pezzi",
     "price": 5,
-    "image": "https://i.etsystatic.com/25300524/r/il/31e50a/5695728595/il_1140xN.5695728595_si4n.jpg"
+    "image": "/images/candles/le_cialde.jpg"
 }
 ]

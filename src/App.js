@@ -13,6 +13,10 @@ import SingleProduct from './admin/SingleProduct';
 import Login from './admin/Login';
 import MaintainProducts from './admin/MaintainProducts';
 import EditProduct from './admin/EditProduct';
+import MarketSchedule from './client/MarketSchedule';
+import MaintainSchedule from './admin/MaintainSchedule';
+import EditSchedule from './admin/EditSchedule';
+import AddEvents from './admin/AddEvents';
 
 
 
@@ -27,15 +31,22 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Mainpage/>}/>
+
+        <Route path="/client/marketschedule" element={<MarketSchedule/>}/>
         <Route path="/client/products" element={<Products/>}/>
         <Route path="/client/decorations" element={<Decorations/>}/>
         <Route path="/client/mainpage" element={<Mainpage/>}/>
+
         <Route path="/admin/adminpage" element={<AdminPage/>}/>
         <Route path="/contact/contacts" element={<Contacts/>}/>
         <Route path='/admin/product/:x' element={<SingleProduct />}></Route>
         <Route path="/admin/login" element={<Login/>}/>
         <Route path="/admin/maintainproducts" element={<MaintainProducts/>}/>
+        <Route path="/admin/maintainschedule" element={<MaintainSchedule/>}/>
         <Route path="/admin/editproduct/:category/:id" element={<EditProduct/>}/>
+        <Route path="/admin/editschedule/:qwerty" element={<EditSchedule/>}/>
+        <Route path="/admin/addschedule/" element={<AddEvents/>}/>
+
         
       </Routes>
       

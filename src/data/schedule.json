@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "date": "7 Dicembre 2024",
+        "place": "Vercelli - Mercatino di Natale"
+    },
+    {   "id": 2,
+        "date": "8 Dicembre 2024",
+        "place": "Angera - Mercatino di Natale"
+    },
+    {   "id": 3,
+        "date": "14 Dicembre 2024",
+        "place": "Serravalle Sesia - Mercatino di Natale"
+    },
+    {   "id": 4,
+        "date": "15 Dicembre 2024",
+        "place": "Soprana - Mercatino di Natale"
+    },
+    {   "id": 5,
+        "date": "21 Dicembre 2024",
+        "place": "Vercelli - Mercatino di Natale"
+    },
+    {   "id": 6,
+        "date": "22 Dicembre 2024",
+        "place": "Borgosesia - Mercatino di Natale"
+    }
+
+]

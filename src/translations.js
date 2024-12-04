@@ -9,7 +9,11 @@ export const resources = {
           decorations: "Decorations",
           search: "Search",
           adminpage: "Adminpage",
-          maintainproducts: "Maintain Products"
+          maintainproducts: "Maintain Products",
+          maintainschedule: "Maintain Schedule",
+          market: "Market Schedule",
+          date: "Date",
+          place: "Place"
         },
         enter: {
           id: 'Enter ID',
@@ -18,7 +22,8 @@ export const resources = {
           image: 'Enter Image',
           save: 'Save',
           change: 'Change',
-          remove: 'Remove'
+          remove: 'Remove',
+          open: 'SEE ALL'
         },
         "mission": {
           "title": "These pages contain the passions of yesterday, today's hobby and who knows, a job for tomorrow...",
@@ -34,6 +39,8 @@ export const resources = {
           za: 'Name: Z to A'
         },
         contactus: {
+          h1: "Contact Us",
+          p: "Email us for any order inquiries or wholesale opportunities at:",
           name: "Name",
           email: "Email",
           message: "Message",
@@ -59,7 +66,11 @@ export const resources = {
           contacts: "Contatti",
           search: "Ricerca",
           adminpage: "Amministratore",
-          maintainproducts: "Mantenere i Prodotti"
+          maintainproducts: "Mantenere i Prodotti",
+          maintainschedule: "Mantenere il Programma",
+          market: "Date dei Mercantini",
+          date: "Data",
+          place: "Posto"
         },
         sort: {
           select: 'Seleziona ordinamento',
@@ -69,6 +80,8 @@ export const resources = {
           za: 'Nome: Z a A'
         },
         contactus: {
+          h1: "Contattaci",
+          p: "Inviaci un'e-mail per qualsiasi richiesta di ordine o opportunità di vendita all'ingrosso a:",
           name: "Nome",
           email: "Email",
           message: "Messagio",
@@ -89,7 +102,8 @@ export const resources = {
           image: 'Inserisci Immagine',
           save: 'Salva',
           change: 'Modifica',
-          remove: 'Rimuovi'
+          remove: 'Rimuovi',
+          open: 'APRI TUTTO'
         },
         mission: {
           title: "In queste pagine sono racchiuse le passioni di ieri, l'hobby di oggi e chissà, un lavoro per un domani...",

@@ -1,23 +1,28 @@
 .singleproductcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 2rem;
     text-align: center;
 }
 
-.singleproduct-card {
-    
-}
 
 .singleproductimage {
-    max-width: 600px;
+    
     height: 300px;
     object-fit: cover;
     border-radius: 8px;
     
 }
 
-@media (min-width: 750px) {
-    .singleproductimage {
-        width: 100%;
-        height: 500px;
+@media (min-width: 500px) {
+
+    .singleproductcontainer {
+        display: flex;
+        align-items: center;
+    }
+
+    .singleproductimage  {
+        min-width: 400px;
     }
 }
