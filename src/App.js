@@ -17,6 +17,7 @@ import MarketSchedule from './client/MarketSchedule';
 import MaintainSchedule from './admin/MaintainSchedule';
 import EditSchedule from './admin/EditSchedule';
 import AddEvents from './admin/AddEvents';
+import AddProduct from './admin/AddProduct';
 
 
 
@@ -46,6 +47,7 @@ function App() {
         <Route path="/admin/editproduct/:category/:id" element={<EditProduct/>}/>
         <Route path="/admin/editschedule/:qwerty" element={<EditSchedule/>}/>
         <Route path="/admin/addschedule/" element={<AddEvents/>}/>
+        <Route path="/admin/addproduct/" element={<AddProduct/>}/>
 
         
       </Routes>

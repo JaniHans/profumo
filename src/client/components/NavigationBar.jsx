@@ -42,9 +42,7 @@ function Navigationbar() {
               {t('navigation.decorations')}
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                ?????
-              </NavDropdown.Item>
+          
             </NavDropdown>
             <Nav.Link as={Link} to="/contact/contacts">
             {t('navigation.contacts')}

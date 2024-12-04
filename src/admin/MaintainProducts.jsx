@@ -33,6 +33,8 @@ const {t} = useTranslation();
   return (
 
     <div>
+      <Link to="/admin/addproduct/">
+      <button>Add New Product</button></Link>
     <table>
       <thead>
         <tr>

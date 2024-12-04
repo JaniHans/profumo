@@ -53,6 +53,12 @@ export const resources = {
           logout: "Logout",
           invalidCredentials: "Invalid username or password",
           validCredentials: "Login successful"
+        },
+        edit : {
+          product: "Edit Product",
+          title: "Title",
+          price: "Price",
+          image: "Image"
         }
       }
     },
@@ -110,6 +116,12 @@ export const resources = {
           paragraph1: "Creiamo candele e profumi solidi partendo da una materia prima raccolta sul territorio, si tratta infatti, di vera cera d'api, derivata dalla smielatura delle arnie di apicoltori locali, che rilascia ancora le sue note dolci di miele senza aver bisogno di alcuna profumazione.",
           paragraph2: "Lavoriamo la cera anche con oli essenziali per donare loro delle fragranze deliziose come le nostre candele alla rosa, alla cannella, all'arancia e alla lavanda.",
           paragraph3: "Tutti i particolari colorati derivano da un'attenta ricerca in erboristerie e drogherie."
+        },
+        edit : {
+          product: "Modificare Prodotto",
+          title: "Titolo",
+          price: "Prezzo",
+          image: "Immagine"
         }
       }
     }

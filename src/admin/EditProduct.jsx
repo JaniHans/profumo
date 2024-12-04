@@ -1,9 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
-import products from '../data/products.json'
-import decorations from '../data/decorations.json'
+import { useState , useEffect} from 'react';
+import { useNavigate, useParams, Link } from 'react-router-dom';
 
 
 
@@ -12,63 +10,82 @@ const EditProduct = () =>  {
     const {category, id} = useParams(); // kategooria ja id urlist
     const productId= parseInt(id, 10); // muuda id numbriks
 
-    const dataSource = category === 'product' ? products : decorations;
-    const product = dataSource.find((p) => p.id === productId);
-
-  const [editedProduct, setEditedProduct] = useState(product || {});
-  const navigate = useNavigate();
-
-  if (!product) {
-    return <div>Product not found</div>
-  }
+    const [products, setProducts] = useState([]);
+    const [editedProduct, setEditedProduct] = useState({});
+    const navigate = useNavigate();
+  
+    useEffect(() => {
+      // Load data from LocalStorage based on category
+      const storedProducts = JSON.parse(localStorage.getItem(category)) || [];
+      setProducts(storedProducts);
+  
+      // Find the product to edit
+      const productToEdit = storedProducts.find((p) => p.id === productId);
+      if (productToEdit) {
+        setEditedProduct(productToEdit);
+      }
+    }, [category, productId]);
+  
     
   const handleSave = () => {
+    // Update the product in the products array
+    const updatedProducts = products.map((product) =>
+      product.id === productId ? editedProduct : product
+    );
+
+    // Save updated products back to LocalStorage
+    localStorage.setItem(category, JSON.stringify(updatedProducts));
+
     console.log('Updated Product:', editedProduct);
-    navigate('/admin/adminpage'); // mine tagasi admin lehele
+    navigate('/admin/adminpage'); // Navigate back to the admin page
   };
 
   return (
   <div>
 
-    <div>Edit Product</div>
+    <div>{t('edit.product')}:</div>
     <form onSubmit={(e) =>{
       e.preventDefault();
       handleSave();
     }}>
     <label>
-      Title:
+      {t('edit.title')}
+      </label><br />
       <input
       type="text"
-      value={editedProduct.title}
+      value={editedProduct.title || ''}
       onChange={(e) =>
         setEditedProduct({ ...editedProduct, title: e.target.value})
 
       }
       />
-    </label>
+    <br />
     <label>
-      Price:
+    {t('edit.price')}
+      </label><br />
       <input
       type="number"
-      value={editedProduct.price}
+      value={editedProduct.price || ''}
       onChange={(e) =>
         setEditedProduct({ ...editedProduct, price: e.target.value})
 
       }
       />
-    </label>
+    <br />
     <label>
-      Image:
+    {t('edit.image')}
+      </label><br />
       <input
       type="text"
-      value={editedProduct.image}
+      value={editedProduct.image || ''}
       onChange={(e) =>
         setEditedProduct({ ...editedProduct, image: e.target.value})
 
       }
       />
-    </label>
-    <button type="submit">Save</button>
+    <br />
+    <Link to="/admin/maintainproducts">
+    <button type="submit">{t('enter.save')}</button></Link>
     </form>
   </div>
   )
