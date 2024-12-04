@@ -22,7 +22,9 @@ function FeaturedCollection() {
           <div key={product.id} className='product-card'>
             <div className='product-price'>{product.title}</div>
             <img src={product.image} alt={product.title}/>
-            <div className='product-price'>{product.price}€</div>
+            <div className='product-price'>
+              {product.sizes && <span>from</span>}
+              {product.price}€</div>
             
           </div>
           

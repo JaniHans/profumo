@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom';
-import productsFile from '../data/products.json'
-import './singleproduct.css'
+import productsFile from '../data/products.json';
+import './singleproduct.css';
 
 function SingleProduct() {
     const {x} = useParams();

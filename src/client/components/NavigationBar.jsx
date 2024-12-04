@@ -5,19 +5,33 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './navigationbar.css';
-import { Link } from 'react-router-dom';
-import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import React , {useRef} from 'react';
 import { useTranslation } from 'react-i18next';
+import productsFile from '../../data/products.json'
+
 
 function Navigationbar() {
 
+  const searchRef = useRef();
+
   const { t, i18n } = useTranslation();
 
-  
+  const navigate = useNavigate();
+
   const changeLang = (newLang) => {
     i18n.changeLanguage(newLang);
     localStorage.setItem("language", newLang);
   }
+
+  const searchMethod = () => {
+    navigate('/client/products')
+    const result = productsFile.filter(product => 
+      product.title.includes(searchRef.current.value)
+    )
+  }
+
+
 
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
@@ -65,7 +79,8 @@ function Navigationbar() {
               placeholder={t('navigation.search')}
               className="me-2"
               aria-label="Search"
-              
+              ref={searchRef}
+              onChange={searchMethod}
             />
             <Button variant="outline-success">{t('navigation.search')}</Button>
           </Form>

@@ -16,7 +16,22 @@
     "id": 3,
     "title": "Little Bubble",
     "price": 4.5,
-    "image": "/images/candles/big_bubble.jpg"
+    "image": "/images/candles/big_bubble.jpg",
+     "sizes": [
+        {
+            "name": "big",
+            "price": 14.5
+        },
+        {
+            "name": "medium",
+            "price": 10
+        },
+        {
+            "name": "small",
+            "price": 4.5
+        }
+
+     ]
 },
 { 
     "id": 4,

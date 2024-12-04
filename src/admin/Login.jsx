@@ -10,6 +10,14 @@ import { Link } from 'react-router-dom';
 
 function Login() {
 
+  // saadetakse backendi fetchi abil
+  // port localhost 80 80
+  // sinna sise p2ring
+  // saadetakse vastu token
+  // token salvestatakse 2ra front endi poolt , j2rgneb  validatsioon
+
+  // Andmebaas
+
     const VALID_USERNAME = "laurihanstin@gmail.com";
     const VALID_PASSWORD = "55UP75";
 

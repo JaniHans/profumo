@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+
+Actual demo webshop without shopping cart and payments for an actual client
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
